@@ -7,6 +7,5 @@ sqla_engine = create_engine(
     echo=True,
     echo_pool=True,
 )
-#=======================================================================================
 Session = sessionmaker(bind=sqla_engine)
 session = Session()

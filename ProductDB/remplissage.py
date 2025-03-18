@@ -1,9 +1,6 @@
 from connection import session
 from models import Product,Category
-#добавляем категории
-#add продукты,названрия
-#добавляем их в sess.
-#commitim изменения в базу
+
 
 def add_sample_data():
     category_fruits = Category(name="Fruits", description="All types of fruits")

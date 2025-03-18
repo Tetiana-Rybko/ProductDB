@@ -1,7 +1,6 @@
 from connection import session
 from models import Product
 
-
 products = session.query(Product).all()
 for product in products:
     print(product.id, product.name, product.price, product.in_stock)
