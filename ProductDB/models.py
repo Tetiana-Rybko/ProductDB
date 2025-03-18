@@ -9,6 +9,7 @@ from sqlalchemy.orm import (
 )
 from connection import sqla_engine
 
+
 Base = declarative_base()
 
 class Category(Base):
