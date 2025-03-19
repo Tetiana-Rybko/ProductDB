@@ -2,7 +2,6 @@ from connection import session
 from models import Product,Category
 
 
-
 def add_sample_data():
     category_fruits = Category(name="Fruits", description="All types of fruits")
     category_légumes = Category(name="Légumes", description="Fresh Légumes")

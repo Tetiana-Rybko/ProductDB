@@ -3,6 +3,7 @@ from sqlalchemy import (
     String,Float,Boolean,Integer,
     ForeignKey
 )
+
 from sqlalchemy.orm import (
     declarative_base,
     relationship,
